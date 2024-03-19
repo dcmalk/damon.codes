@@ -3,11 +3,11 @@ const siteMetadata = {
   title: 'Damon Malkiewicz',
   author: 'Damon Malkiewicz',
   headerTitle: 'damon.codes',
-  description: 'Damon Malkiewicz portfolio blog.',
+  description: "Damon's developer blog.",
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://damon.codes',
+  siteRepo: 'https://github.com/dcmalk/damon.codes',
   siteLogo: '/static/images/logo.png',
   socialBanner: '/static/images/twitter-card.png',
   mastodon: 'https://mastodon.social/@dcmalk',
@@ -15,7 +15,7 @@ const siteMetadata = {
   github: 'https://github.com/dcmalk',
   twitter: 'https://twitter.com/dcmalk',
   facebook: 'https://www.facebook.com/dmalk',
-  // youtube: 'https://youtube.com',
+  youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/dcmalk/',
   threads: 'https://www.threads.net/@dcmalk',
   instagram: 'https://www.instagram.com/dcmalk',
@@ -28,7 +28,7 @@ const siteMetadata = {
       // We use an env variable for this site to avoid other users cloning our analytics ID
       umamiWebsiteId: process.env.NEXT_UMAMI_ID, // e.g. 123e4567-e89b-12d3-a456-426614174000
       // You may also need to overwrite the script if you're storing data in the US - ex:
-      src: 'https://us.umami.is/script.js'
+      src: 'https://us.umami.is/script.js',
       // Remember to add 'us.umami.is' in `next.config.js` as a permitted domain for the CSP
     },
   },
